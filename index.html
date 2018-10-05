@@ -1,0 +1,158 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>OnlineS3 Application Template</title>
+	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/header.css" />
+	<link rel="stylesheet" href="css/footer.css" />
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+
+<body>
+
+<div id="page">
+
+<div id="mainpage" class="site">
+
+<!-- site header -->
+<header id='site-header'>
+
+	<nav id='top-menu'>
+		<ul>
+			<li><a href='http://www.onlines3.eu/'>Online S3 Project</a></li>
+			<li class="active"><a href='#'><i class="fa fa-lightbulb-o" aria-hidden="true"></i>Applications</a></li>
+			<li><a href='#'/><i class="fa fa-cog" aria-hidden="true"></i>Toolbox</a></li>
+			<li><a href='#'/><i class="fa fa-bar-chart" aria-hidden="true"></i>Analytics</a></li>
+			<li><a href='#'/><i class="fa fa-life-ring" aria-hidden="true"></i></i>Support</a></li>
+			<li><a href='#'/><i class="fa fa-envelope-o" aria-hidden="true"></i>Contact</a></li>
+		</ul>
+	</nav>
+
+	<div id='header-main'>
+
+		<div class='top-section'>
+			<div class='headers'>
+				<img class='logo-img' src='img/logo.png' width='77'>
+				<div>
+					<p class="heading"><a href='#'>Online S3 Platform</a></p>
+					<p class="sub-heading">Regional scientific production profile</p>
+				</div>
+			</div>
+
+			<div class="social-links">
+				<a href="https://twitter.com/online_s3" title="Twitter" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+				<a href="https://plus.google.com/102042915278982824881" title="Google+" target="_blank"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+				<a href="https://www.youtube.com/channel/UCuYNnd9rdrN_EbF5_P0Nmog" title="YouTube" target="_blank"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+
+				<!-- <a href="https://twitter.com/online_s3" title="Twitter" target="_blank">L</a>  -->
+				<!-- <a href="https://plus.google.com/102042915278982824881" title="Google+" target="_blank">G</a>  -->
+				<!-- <a href="https://www.youtube.com/channel/UCuYNnd9rdrN_EbF5_P0Nmog" title="YouTube" target="_blank">X</a>  -->
+				<!-- <a href="http://www.onlines3.eu/feed/" title="Newsfeed" target="_blank">R</a> -->
+			</div>
+		</div>
+
+		<div class='bottom-section'>
+			<div class="menu">
+				<ul>
+					<li><a href="index.html">About</a></li>
+					<li><a href="guide.html">Guide</a></li>
+					<li><a href="doc.html">Related Documents</a></li>
+					<li><a id='tool' href='app.php'>Access to application</a></li>
+				</ul>
+			</div>
+
+			<div class='user-btns'>
+				<button class='login-btn'> Sign in </button>
+				<button class='register-btn'> Sign up </button>
+			</div>
+		</div>
+
+	</div>
+
+	<div id='breadcrumb'>
+		<ul>
+			<li><a href='#'>Online S3 Platform</a></li>
+			<li><a href='#'>Analysis of context</a></li>
+			<li><span>Regional scientific production profile</span></li>
+		</ul>
+	</div>
+
+</header>
+<!-- site header -->
+
+<!-- Application's space -->
+<div class="site-content">
+
+	<article id="main-content">
+
+		<h2>About</h2>
+
+		<p>
+			The objective of a scientific production profile is to provide a bibliometric analysis of the scientific performance of regions.
+			The scientific production profiles are generally based on a selected set of bibliometric indicators that aim to compare scientific performance across geographies (regions, but also countries).Scientific profiles and regional benchmarking of these profiles are important for the analysis of the context of a region as it facilitates a comparison of all aspects of a region’s performance in relation to science, main fields of science and specialisation patterns of regional academic systems. When benchmarked to other regions, it can be a valuable tool to identify weaknesses and strengths, and link them to overall regional performance.The elaboration of scientific profiles is based on Publication data.
+		</p>
+
+		<p>The logical steps of the application, based on its methodological description are:</p>
+
+		<ul class='dashed'>
+			<li><i>Step 1.</i> Visit <a href='http://www.scopus.com'>Scopus</a> to search for the <strong>publications</strong> within a city, region or country.</li>
+			<li><i>Step 2.</i> Extraction of the selected data in <strong>.csv</strong> format using the tools provided by Scopus.</li>
+			<li><i>Step 3.</i> <strong>Repeat Step 1 and Step 2</strong> to download the data for all the regions the user is interested in.</li>
+			<li><i>Step 4.</i> <strong>Upload</strong> the previously extracted data to the Scientific Production Profile Application.</li>
+			<li><i>Step 5.</i> <strong>Report</strong> synthesis and regional scientific production profile overview.</li>
+		</ul>
+
+	</article>
+
+	<aside id='sidebar'>
+
+		<a href="#" target="ref" onclick="popIt(this.href);return false;"><button class="alt"> Download Guide  <i class="fa fa-file-pdf-o" aria-hidden="true"></i></button></a>
+
+		<div></div>
+
+		<a href="app.php" target="_self"><button> Access to application  <img src="img/access-icon.png" width="20"></button></a>
+
+	</aside>
+
+</div>
+<!-- Application's space -->
+
+<!-- site footer -->
+<footer id='site-footer'>
+
+	<div id="footer-links">
+        <ul>
+            <li><a href="#"><span>Online S3 Project</span></a></li>
+            <li class="active"><a href="#"><span>Applications</span></a></li>
+            <li><a href="#"><span>Toolbox</span></a></li>
+            <li><a href="#"><span>Analytics</span></a></li>
+            <li><a href="#">Support</span></a></li>
+            <li><a href="#"><span>Contact</span></a></li>
+        </ul>
+        <div id='copyright'>
+            <img src="img/logo.png" width="30" alt="online logo">
+            <p>Copyright &copy; 2016-2017 OnlineS3 Project</p>
+        </div>
+    </div>
+
+    <div id="european">
+        <img src="img/eu_logo.png" width="85" alt="Co-funded by the European Union">
+
+        <p>
+            Funded by the Horizon 2020 Framework Programme of the European Union.
+        </p>
+    </div>
+
+</footer>
+
+<!-- site footer -->
+
+</div>
+
+</div>

@@ -1,0 +1,354 @@
+
+html {
+    box-sizing: border-box;
+    line-height: 1.3; /*added*/
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+    margin: 0
+}
+
+p, ul li {
+	color: #000;
+	font-size: 13px;
+	font-family: verdana,sans-serif
+}
+
+p {
+	line-height: 1.8;
+	text-align: justify;
+	padding: 3px 16px;
+}
+
+button {
+	line-height: 1;
+}
+
+h2 {
+    margin: 0;
+    color: #de1515;
+    padding:;
+	font-style: normal ;
+	font-weight: 400 ;
+	clear: both ;
+	font-size: 21px ;
+	font-family: tahoma;
+}
+
+li a:active {
+    color:yellow !important;
+}
+
+#page {
+	background: #e5e8e8;
+	background-image: url(../img/background.png), url(../img/background.png);
+	background-position: right top, left top;
+	background-repeat: no-repeat, no-repeat;
+	width: 100%;
+}
+
+#mainpage {
+	height: auto;
+	max-width: 1200px;
+	margin: 0 auto;
+	background: white;
+}
+
+
+nav#mainnav {
+
+  width: 100%;
+
+  margin: 20px 0; }
+
+nav#mainnav ul {
+
+  float: right;
+
+  padding-right: 30px;
+
+  list-style: none;
+
+  overflow: hidden;
+}
+
+nav#mainnav ul li {
+
+  float: left;
+
+  display: inline;
+}
+
+nav#mainnav ul li a {
+
+  font-weight: 600;
+  font-size: 12px;
+  color: #fff;
+
+  text-align: center;
+
+  padding: 10px 10px 10px 10px;
+
+  display: block;
+
+  width: 100%;
+
+  background: #2197f9; /* Old browsers */
+
+  background: -moz-linear-gradient(top, #2197f9 0%, #007ce2 100%); /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2197f9), color-stop(100%,#007ce2)); /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #2197f9 0%,#007ce2 100%); /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #2197f9 0%,#007ce2 100%); /* Opera 11.10+ */
+
+  background: linear-gradient(to bottom, #2197f9 0%,#007ce2 100%); /* W3C, IE10+ */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2197f9', endColorstr='#007ce2',GradientType=0 ); /* IE6-9 */
+
+  endColorstr='#007ce2',GradientType=0 ); /* IE6-9 */
+
+}
+
+nav#mainnav ul li a,
+
+nav#mainnav ul li a:focus,
+
+nav#mainnav ul li a:visited,
+
+nav#mainnav ul li a:hover,
+
+nav#mainnav ul li a:active {
+
+  font-weight: 600;
+  font-size: 12px;
+  color: #fff;
+
+  text-decoration: none; }
+
+nav#mainnav ul li a:hover,
+
+nav#mainnav ul li a:active {
+
+  font-weight: 600;
+  font-size: 12px;
+  color: #fff;
+
+  background: #007ce2; /* Old browsers */
+
+  background: -moz-linear-gradient(top, #007ce2 0%, #ff6b6b 100%); /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#007ce2), color-stop(100%,#ff6b6b)); /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top, #007ce2 0%,#ff6b6b 100%); /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top, #007ce2 0%,#ff6b6b 100%); /* Opera 11.10+ */
+
+  background: linear-gradient(to bottom, #007ce2 0%,#ff6b6b 100%); /* W3C, IE10+ */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007ce2', endColorstr='#ff6b6b',GradientType=0 ); /* IE6-9 */
+
+}
+
+nav#mainnav ul li:first-child a {
+
+  border-top-left-radius: 8px;
+
+  border-bottom-left-radius: 8px; }
+
+nav#mainnav ul li:last-child a {
+
+  border-top-right-radius: 8px;
+
+  border-bottom-right-radius: 8px; }
+
+
+
+/* top main-nav of app
+nav#mainnav {
+    margin-top: 12px
+}
+
+nav#mainnav ul {
+    padding: 0;
+    float: right;
+    padding-right: 30px;
+    margin: 0;
+}
+
+nav#mainnav ul li {
+    display: inline;
+}
+
+nav#mainnav ul li {
+    display: inline;
+}
+
+nav#mainnav ul li:not(:last-child):after {
+    content: '|';
+    position: relative;
+    padding: 0 7px 0 14px
+}
+
+nav#mainnav ul li a{
+    color: #333;
+    text-decoration: none !important;
+    font-family: Verdana, Arial;
+    text-transform: uppercase;
+}
+
+nav#mainnav a:hover {color: #346acb;
+}
+
+nav#mainnav a:active {color: #de1515;
+}
+*/
+/* application title */
+#appl-title {
+    margin-left: 30px
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.site-content {
+	min-height: 36rem;
+	padding: 0px 30px 0px 30px;
+}
+
+#contentmain {
+    width: 740px;
+    margin-left: 30px;
+    float: left;
+    position: relative;
+}
+
+#main-content {
+	position: relative;
+	float: left;
+	max-width: 840px;
+    width:100%;
+}
+#main-content a:link{
+	text-decoration: none;
+    transition: .4s;
+    color: #346acb;
+}
+
+#main-content ul {
+	list-style-type: none;
+	margin-left: 20px;
+	line-height: 2
+}
+
+#main-content ul li {
+	text-indent: -5px;
+	text-decoration: none;
+
+}
+
+#main-content ul.dashed a:link {
+	text-decoration: none;
+    font-weight: 400;
+    font-size: 13px;
+    transition: .4s;
+    color: #346acb;
+}
+#main-content ul.dashed > li::before {
+    content: "-";
+    text-indent: -6px;
+    right: 5px;
+    position: relative;
+}
+
+#map {
+    height: 600px;
+    width: 740px;
+    /*margin-left: 30px;*/
+    margin-bottom: 30px;
+    float: left;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+#sidebar {
+	position: relative;
+	float: right;
+	width: 260px;
+	/*padding: 1rem 1.5rem;*/
+	margin-top: 3rem;
+	margin-right: 30px;
+	text-align: left;
+}
+
+#sidebar button {
+	color: #fff;
+	background: linear-gradient(#2197f9,#007ce2);
+	line-height: 1.4;
+	font-size: 12px;
+	vertical-align: middle;
+	border-radius: 3px;
+	border: solid 1px #007ce2;
+	padding: 3px 8px 6px 8px;
+	letter-spacing: 0;
+	cursor: pointer;
+	margin: 10px 14px 0 0;
+	width: 12rem;
+	font-weight: 600;
+}
+
+#sidebar button.alt {
+	border: solid 1px red;
+	padding: 5px 8px;
+	background: linear-gradient(#ff6b6b,#ec2929);
+}
+
+#sidebar button img {
+	position: relative;
+	top: 3px;
+	left: 4px;
+}
+
+#sidebar button .fa {
+	position: relative;
+	font-size: 14px;
+	left: 4px;
+}
+
+#sidebar button:hover {
+	opacity: .8;
+}
+
+#sidebar button.greenbtn {
+  color: #fff;
+  line-height: 1.4;
+  font-size: 12px;
+  vertical-align: middle;
+  border-radius: 3px;
+  letter-spacing: 0;
+  cursor: pointer;
+  margin: 10px 14px 0 0;
+  width: 12rem;
+  font-weight: 600;
+  border: solid 1px #85dd36;
+  padding: 5px 8px;
+  background: linear-gradient(#c5e4a8,#85dd36);
+}
+
+
+@media only screen and (max-width:1200px) {
+	#sidebar {
+		text-align: center;
+		margin: 1rem auto;
+		width: 100%;
+	}
+}

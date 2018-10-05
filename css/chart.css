@@ -1,0 +1,173 @@
+/* Radar Chart */
+#multipleCSVGraphRadar {
+    height: 500px;
+    display: none;
+}
+
+div.hovertip {	
+    position: absolute;			
+    padding: 4px;				
+    font: 12px sans-serif;		
+    background: lightgrey;	
+    border: 0px;
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+
+/* Horizontal Bar Chart */
+.hbarchartframe {
+    margin: 20px 0px 20px 0px;
+}
+/*
+.hbarchart rect {
+	fill: steelblue;
+}
+*/
+.hbarchart .legend {
+	fill: black;
+	font: sans-serif;
+	text-anchor: start;
+	font-size: 12px;
+}
+
+.hbarchart text {
+	fill: black;
+	font: 10px sans-serif;
+	text-anchor: end;
+}
+
+.hbarchart .label {
+	fill: black;
+	font: 12px sans-serif;
+	text-anchor: end;
+}
+
+.hbar:hover {
+	fill: brown;
+}
+
+.haxis path,
+.haxis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+
+/* Line Chart */
+.linechart {
+    width: 600px;
+    height: 300px;
+}
+
+.linechart path {
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+
+.linechart .axis path,
+.linechart .axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+.linechart .legend {
+    font-size: 16px;
+    font-weight: bold;
+    text-anchor: middle;
+}
+
+.grid .tick {
+    stroke: grey;
+    opacity: 0.2;
+}
+
+.grid path {
+    stroke-width: 0;
+}
+
+/* Vertical Bar Chart */
+div.vbarchart {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width: 960px;
+	height: 500px;
+	position: relative;
+}
+
+.vbarchart svg {
+	width: 100%;
+	height: 100%;
+	position: center;
+}
+
+.vbarchart text{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 10px sans-serif;
+}
+
+.vbarchart .toolTip {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	position: absolute;
+	display: none;
+	width: auto;
+	height: auto;
+	background: none repeat scroll 0 0 white;
+	border: 0 none;
+	border-radius: 8px 8px 8px 8px;
+	box-shadow: -3px 3px 15px #888888;
+	color: black;
+	font: 12px sans-serif;
+	padding: 5px;
+	text-align: center;
+}
+
+.vbarchart .legend {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 60%;
+}
+
+.vaxis text {
+	font: 10px sans-serif;
+}
+
+.vaxis path{
+	fill: none;
+	stroke: #000;
+}
+
+.vaxis line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+
+.vaxis .tick line {
+	stroke-width: 1;
+	stroke: rgba(0, 0, 0, 0.2);
+}
+
+.vaxisHorizontal path{
+	fill: none;
+}
+
+.vaxisHorizontal line {
+	fill: none;
+	stroke: #000;
+	shape-rendering: crispEdges;
+}
+
+.vaxisHorizontal .tick line {
+	stroke-width: 1;
+	stroke: rgba(0, 0, 0, 0.2);
+}
+
+.vbar {
+	fill: steelblue;
+	fill-opacity: .9;
+}
+
+.x.vaxis path {
+	display: none;
+}

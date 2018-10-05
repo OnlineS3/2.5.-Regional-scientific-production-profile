@@ -1,0 +1,98 @@
+#filesuploaded {
+    font-family:Tahoma;
+    display: none;
+    background-color:#eee;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    margin-top: 1.7rem;
+}
+
+#filesuploaded p {
+    background-color:#eee;
+    color:black;
+    font-weight: 800;
+    font-size: 14px;
+    vertical-align: center;
+    line-height: 1.0;
+    text-align: center;
+}
+
+#reportcontainer {
+    font-family:Tahoma;
+    display: none;
+    background-color:#eee;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    margin-top: 1.7rem;
+}
+
+#reportcontainer p {
+    background-color:#eee;
+    color:black;
+    font-weight: 800;
+    font-size: 14px;
+    vertical-align: center;
+    line-height: 1.0;
+    text-align: center;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  margin-bottom: 20px;
+}
+
+.rounded-list {
+    counter-reset: li; /* Initiate a counter */
+    list-style: none; /* Remove default numbering */
+    *list-style: decimal; /* Keep using default numbering for IE6/7 */
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-bottom: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+.rounded-list li{
+    font-weight: 600;
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    transition: all .3s ease-out;
+}
+
+.rounded-list li:hover{
+    background: #eee;
+}
+
+.rounded-list li:hover:before{
+    transform: rotate(360deg);
+}
+
+.rounded-list li:before{
+    content: counter(li);
+    color: #fff;
+    counter-increment: li;
+    position: absolute;
+    left: -1.3em;
+    top: 50%;
+    margin-top: -1.3em;
+    background: #2197f9;
+    height: 2em;
+    width: 2em;
+    line-height: 2em;
+    border: .15em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all .3s ease-out;
+}

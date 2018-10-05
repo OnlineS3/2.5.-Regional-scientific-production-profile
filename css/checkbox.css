@@ -1,0 +1,67 @@
+/*.checkboxes {
+    background: linear-gradient(#2197f9,#007ce2);
+    color: white;
+    font-family: Tahoma;
+    font-weight: 600;
+    float: left;
+    margin-bottom: 5px;
+    font-size:13px;
+    text-align: left;
+    border-radius: 3px;
+    margin: 5px 5px 5px 5px;
+    width: 180px;
+    height:30px;
+    border: solid 1px #007ce2;
+    padding: 3px 8px 8px 3px;
+}*/
+
+
+#ck-button {
+    margin: 10px 14px 0 0;
+    background-color:#EFEFEF;
+    border-radius:4px;
+    border:1px solid #D0D0D0;
+    overflow:auto;
+    float:left;
+    font-size: 12px;
+    font-family:Tahoma;
+    font-weight: 600;
+    vertical-align: middle;
+    line-height: 1.4;
+
+}
+
+#ck-button:hover {
+    margin: 10px 14px 0 0;
+    background-color:#EFEFEF;
+    border-radius:4px;
+    border:1px solid #007ce2;
+    overflow:auto;
+    float:left;
+    color:#007ce2;
+    vertical-align: middle;
+    line-height: 1.4;
+
+}
+
+#ck-button label {
+    float:left;
+    width:13.0em;
+}
+
+#ck-button label span {
+    text-align:center;
+    padding:3px 0px;
+    display:block;
+}
+
+#ck-button label input {
+    display: none;
+    position:absolute;
+    top:-20px;
+}
+
+#ck-button input:checked + span {
+    background: linear-gradient(#2197f9,#007ce2);
+    color:#fff;
+}

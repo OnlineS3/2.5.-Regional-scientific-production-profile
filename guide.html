@@ -1,0 +1,257 @@
+
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>OnlineS3 Application Template</title>
+	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/header.css" />
+	<link rel="stylesheet" href="css/footer.css" />
+	<link rel="stylesheet" href="css/plain.css" />
+	<link rel="stylesheet" href="css/guide_accordion.css" type="text/css">
+	<link href="css/lightbox.css" rel="stylesheet">
+	<script type="text/javascript" src="js/popit.js"></script>
+</head>
+
+<body>
+
+<div id="page">
+
+<div id="mainpage" class="site">
+
+<!-- site header -->
+<header id='site-header'>
+
+	<nav id='top-menu'>
+		<ul>
+			<li><a href='http://www.onlines3.eu/'>Online S3 Project</a></li>
+			<li class="active"><a href='#'><i class="fa fa-lightbulb-o" aria-hidden="true"></i>Applications</a></li>
+			<li><a href='#'/><i class="fa fa-cog" aria-hidden="true"></i>Toolbox</a></li>
+			<li><a href='#'/><i class="fa fa-bar-chart" aria-hidden="true"></i>Analytics</a></li>
+			<li><a href='#'/><i class="fa fa-life-ring" aria-hidden="true"></i></i>Support</a></li>
+			<li><a href='http://www.onlines3.eu/contact/'/><i class="fa fa-envelope-o" aria-hidden="true"></i>Contact</a></li>
+		</ul>
+	</nav>
+
+	<div id='header-main'>
+
+		<div class='top-section'>
+			<div class='headers'>
+				<img class='logo-img' src='img/logo.png' width='77'>
+				<div>
+					<p class="heading"><a href='#'>Online S3 Platform</a></p>
+					<p class="sub-heading">Regional scientific production profile</p>
+				</div>
+			</div>
+
+			<div class="social-links">
+				<a href="https://twitter.com/online_s3" title="Twitter" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+				<a href="https://plus.google.com/102042915278982824881" title="Google+" target="_blank"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+				<a href="https://www.youtube.com/channel/UCuYNnd9rdrN_EbF5_P0Nmog" title="YouTube" target="_blank"><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+
+				<!-- <a href="https://twitter.com/online_s3" title="Twitter" target="_blank">L</a>  -->
+				<!-- <a href="https://plus.google.com/102042915278982824881" title="Google+" target="_blank">G</a>  -->
+				<!-- <a href="https://www.youtube.com/channel/UCuYNnd9rdrN_EbF5_P0Nmog" title="YouTube" target="_blank">X</a>  -->
+				<!-- <a href="http://www.onlines3.eu/feed/" title="Newsfeed" target="_blank">R</a> -->
+			</div>
+		</div>
+
+		<div class='bottom-section'>
+			<div class="menu">
+				<ul>
+					<li><a href="index.html">About</a></li>
+					<li><a href="guide.html">Guide</a></li>
+					<li><a href="doc.html">Related Documents</a></li>
+					<li><a id='tool' href='app.php'>Access to application</a></li>
+				</ul>
+			</div>
+
+			<div class='user-btns'>
+				<button class='login-btn'> Sign in </button>
+				<button class='register-btn'> Sign up </button>
+			</div>
+		</div>
+
+	</div>
+
+	<div id='breadcrumb'>
+		<ul>
+			<li><a href='#'>Online S3 Platform</a></li>
+			<li><a href='#'>Analysis of context</a></li>
+			<li><span>Regional scientific production profile</span></li>
+		</ul>
+	</div>
+
+</header>
+<!-- site header -->
+
+<!-- Application's space -->
+<div class="site-content">
+
+	<article id="main-content">
+
+		<h2>Guide</h2>
+		<button class="accordion" id="sectiona">Section A: Visit Scopus and download publications related data</button>
+			<div class="panel">
+			<p>In this section, the process of how a user can download data from Scopus is described in detail. <a href="https://www.scopus.com">Scopus</a> is the largest database of peer reviewed literature and for the moment, the only available data source of this application.</p>
+			<p><strong>Step 1:</strong> Perform your query</p>
+			<p>Once you visit <a href="https://www.scopus.com">Scopus</a>, a page that contains a search box will appear. If you want to search for a <strong>country</strong>'s publications you have to type the name of the country (e.g. Austria) in the text box below the <em>"Search"</em> term and choose <em>"Affiliation country"</em> in the drop down filter menu on the right.Press the <em>"Search"</em> button on the bottom right of the page in order to get the corresponding results.<p>
+				<div class="img-container">
+					<a href="img/step1.png" data-lightbox="step1" data-title="Search for a country's publications"><img class="modal-img" id="about-img" src="img/step1.png" alt="Figure 1 Search for a country's publications" width="100%"></a>
+				</div>
+					<p class="img-caption">Figure 1 Search for a country's publications</p>
+			<p>If you want to search for a <strong>region</strong>'s publications the process is slightly different. In the <em>"Search"</em> area you type the name of the cities the region consists of. In order to do that you have to repeat the following process for every city accordingly. After typing the name of the first city in the Search area, you choose the <em>Affiliation city</em> filter from the drop down menu. Once you do so, you click on the "<strong>+</strong>" sign. A new search bar appears. Click on the <strong>AND</strong> term and choose <strong>OR</strong> instead. Type the name of the second city of the region and choose "Affiliation city" in the filter box. Repeat this process for all the cities the region consists of. Press the <em>"Search"</em> button on the bottom right of the page in order to get the corresponding results.<p>
+				<div class="img-container">
+					<a href="img/step2.png" data-lightbox="step2" data-title="Search for a region's publications"><img class="modal-img" id="about-img" src="img/step2.png" alt="Figure 2 Search for a region's publications" width="100%"></a>
+				</div>
+				<p class="img-caption">Figure 2 Search for a region's publications</p>
+				<div class="img-container">
+					<video width="100%" controls>
+						<source src="images/vid1.mp4" type="video/mp4">
+					</video>
+					<p class="img-caption">Video 1 Search for a region's publications</p>
+				</div>
+			<p><strong>Step 2:</strong> Refine your results</p>
+			<p>After searching for a certain country, city or region you will be directed to the page that hosts the results of your query. The results page includes a large nummber of filtering options, like <em>"Subject Area"</em>, <em>"Affiliation"</em>, <em>"Year"</em>, etc. You can limit your results by applying any of these filters accordingly by pressing the "<strong>Limit to</strong>" button on the left of the page. For example you can limit your results, to the publications of a certain period of time. In Figure 3 you can see all the research papers that were published in Greece, during the years 2014 - 2016. <p>
+				<div class="img-container">
+					<a href="img/step3.png" data-lightbox="step3" data-title="Limit your results to a certain period of time"><img class="modal-img" id="about-img" src="img/step3.png" alt="Figure 3 Limit your results to a certain period of time" width="100%"></a>
+				</div>
+					<p class="img-caption">Figure 3 Limit your results to a certain period of time</p>
+			<p><strong>Step 3:</strong> Download the results of your query in .csv format</p>
+			<p>In order to use the developed application, you need to download the results of your query in .csv format. Scopus provides the user with the ability to download certain metrics in regards to the query that has been issued. To do so, you have to press the "<strong> Analyze Search Results</strong>" button which redirects you to a different web page. As you can see in Figure 4, this page contains multiple tabs. The ones that you are going to use are the following: <strong>1.</strong>Year <strong>2.</strong>Affiliation <strong>3.</strong> Subject area and the <strong>Export</strong> button. The Year tab will provide you with the data needed for the <strong>Annual Analysis</strong>, the Affiliation tab with the data for the <strong>Affiliation Analysis</strong> and the Subject tab with the <strong>Subject Analysis</strong> data accordingly. The .csv file will be downloaded as soon as you press the <strong>export</strong> button on the top left of your page. Each tab provides you with a different .csv data file, so it strongly advised that you save every different file with a distinct name. The whole process is also described in detail in <a href="#video2">Video 2</a><p>
+				<div class="img-container">
+					<a href="img/step4.png" data-lightbox="step4" data-title=">Figure 4 Export your results in .csv"><img class="modal-img" id="about-img" src="img/step4.png" alt=">Figure 4 Export your results in .csv" width="100%"></a>
+				</div>
+					<p class="img-caption">Figure 4 Export your results in .csv</p>
+				<div class="img-container">
+					<video width="100%" controls id="video2">
+						<source src="images/vid2.mp4" type="video/mp4">
+					</video>
+					<p class="img-caption">Video 2 Export your results into .csv format</p>
+				</div>
+
+			</div>
+		<button class="accordion"  id="sectionb">Section B: How to use the developed application</button>
+			<div class="panel">
+				<p>In this section, the process of how a user can use the Scientific Production Profile application is described in detail.</p>
+				<p><strong>Step 1:</strong> Choose the location of your analysis</p>
+				<p>Once you visit the <a href="app.php">application</a>, you need to choose whether you want to analyze the scientific profile of a city/country or a region. If the data that you have already downloaded concern a city/country you need to click on the first image. Otherwise, if your data are about a region you have to click on the second image.<p>
+				<div class="img-container">
+					<a href="img/step5.png" data-lightbox="step5" data-title="Choose either to perform a city/country or a regional analysis"><img class="modal-img" id="about-img" src="img/step5.png" alt="Figure 5 Choose either to perform a city/country or a regional analysis" width="100%"></a>
+				</div>
+					<p class="img-caption">Figure 5 Choose either to perform a city/country or a regional analysis</p>
+				<p><strong>Step 2:</strong> Choose the kind of analysis you want to perform</p>
+				<p>After choosing a city/country or a regional analysis you have to choose the kind of analysis you want to perform. The application provides three different tools. The first one, <a href="subject.html">Subject Analysis</a>, takes as input the .csv file which contains the subject area related data that you have already download from scopus. Using this data, the tool creates two different charts , a radar chart and a horizontal bar chart. Both these charts can be exported to an image and can also be included in a Word Document report that is extracted (if the user wants so). The second tool <a href="affiliation.html">Affiliation Analysis</a> uses the affiliation data that have been exported previously and the third tool <a href="year.html">Annual Analysis</a> uses the year related data accordingly.<p>
+				<div class="img-container">
+					<a href="img/step6.png" data-lightbox="step6" data-title="Choose the kind of analysis you want to perform"><img class="modal-img" id="about-img" src="img/step6.png" alt="Figure 6 Choose the kind of analysis you want to perform" width="100%"></a>
+				</div>
+					<p class="img-caption">Figure 6 Choose the kind of analysis you want to perform</p>
+				<p><strong>Step 3:</strong> How to use the tool for a single area</p>
+				<p>Each tool uses the same layout and functionalities. The <strong>Add Csv File(s)</strong> button is used to upload the data you have already collected. Once you click on this button a file explorer window will appear. Guide yourself to the location where your data is stored and select the appropriate csv file. After uploading your data, the layout of the page changes and several new elements appear. You can choose to visualize the Radar chart by clicking on the corresponding label, visualize the Horizontal Bar chart or add any comments in the text area,at the bottom of the page. You can export the charts by clicking on the <strong>Export Chart as PNG</strong> button and you can choose to include these charts in your report by clicking on the <strong>Add chart to Doc</strong> button. On the right side of the page you can see the green <strong>Report</strong> button which produces a word document, containing all the relevant data, your comments and the charts (depending on the user's choices). Under the report button, there is a list with all the files that you have uploaded and visualized (<em>See <a href="#sectionc">Section C</a></em>). Finally the red <strong> Clear</strong> button, clears the data that you have already used and allows you to insert new data.<p>
+				<div class="img-container">
+					<a href="img/step7.png" data-lightbox="step7" data-title="Upload your data"><img class="modal-img" id="about-img" src="img/step7.png" alt="Figure 7 Upload your data" width="100%"></a>
+				</div>
+					<p class="img-caption">Figure 7 Upload your data</p>
+				<div class="img-container">
+					<a href="img/step8.png" data-lightbox="step8" data-title="Buttons and their functionalities"><img class="modal-img" id="about-img" src="img/step8.png" alt="Figure 8 Buttons and their functionalities" width="100%"></a>
+				</div>
+					<p class="img-caption">Figure 8 Buttons and their functionalities</p>
+				<p> The <a href="#vid3">Video</a> below shows in detail all the main functionalities of the Subject Analysis tool. The other two tools operate in the same way. </p>
+				<div class="img-container">
+					<video width="100%" controls id="vid3">
+						<source src="images/vid3.mp4" type="video/mp4">
+					</video>
+					<p class="img-caption">Video 3 Main Functionalities</p>
+				</div>
+
+			</div>
+		<button class="accordion" id="sectionc">Section C: Perform a comparison between regions or cities/countries of interest</button>
+			<div class="panel">
+				<p>In this section, the process of how a user can use the Scientific Production Profile application to perform comparisons between regions or countries is described in detail. The comparison can be performed only at a subject level or a year level. The affiliation analysis tool does not have a comparison functionality, because different regions or countries have completely different affiliation organizations and such a comparison is pointless.</p>
+				<p><strong>Step 1:</strong> Choose the kind of analysis comparison you want to perform</p>
+				<p>Once you visit the <a href="regional_profile.html">application</a>, you need to choose whether you want to perform a subject analysis comparison or an annual analysis comparison<p>
+				<div class="img-container">
+					<a href="img/step9.png" data-lightbox="step9" data-title="Choose either to perform a subject or an annual analysis comparison"><img class="modal-img" id="about-img" src="img/step9.png" alt="Figure 9 Choose either to perform a subject or an annual analysis comparison" width="100%"></a>
+				</div>
+					<p class="img-caption">Figure 9 Choose either to perform a subject or an annual analysis comparison</p>
+				<p><strong>Step 2:</strong> Choose the regions or cities/countries you want to compare</p>
+				<p>In order to perform a comparison between <em><strong>x</strong></em> different regions or cities/countries you need to have <em><strong>x</strong></em> number of data files. The process of downloading the .csv data files has been described in details in <a href="#sectiona">Section A</a>. To perform a comparison you need to follow the exact same process as described in  <a href="#sectionb">Section B</a> with only one difference. You have to upload more than one csv files.To do so you just need to press the <strong>Add csv File(s)</strong> and add more data. You can watch <a href="#vid4">the following video</a> to understand the whole process.<p>
+				<div class="img-container">
+					<video width="100%" controls id="vid4">
+						<source src="images/vid4.mp4" type="video/mp4">
+					</video>
+				</div>
+					<p class="img-caption">Video 4 Perform a comparison</p>
+				<p>Apart from the main functionalities of the applications and its tools, there are some other hints and tips on the charts' format which will allow the user to have a clearer view.</p>
+				<p><strong>Step 3:</strong>Show or hide certain areas of the chart</p>
+				<p>Once you visualize your data, you can choose to hide the areas that you are not interested in. To do so, you just have to click on the subject area or affiliation organization that you do not want to include in the chart (see Figure 10). For the annual analysis, if you want to hide one of the regions or cities/countries that you do not want to appear on the line chart, simply click on the according label of the chart (see Figure 11)<p>
+				<div class="img-container">
+					<a href="img/step10.png" data-lightbox="step10" data-title="Show or hide certain areas of the Radar/Bar chart"><img class="modal-img" id="about-img" src="img/step10.png" alt="Figure 10 Show or hide certain areas of the Radar/Bar chart" width="100%"></a>
+				</div>
+				<p class="img-caption">Figure 10 Show or hide certain areas of the Radar/Bar chart</p>
+				<div class="img-container">
+					<a href="img/step11.png" data-lightbox="step11" data-title="Show or hide certain areas of the Line chart"><img class="modal-img" id="about-img" src="img/step11.png" alt="Figure 11 Show or hide certain areas of the Line chart" width="100%"></a>
+				</div>
+				<p class="img-caption">Figure 11 Show or hide certain areas of the Line chart</p>
+
+			</div>
+	</article>
+
+	<aside id='sidebar'>
+		<a href="#" target="ref" onclick="popIt(this.href);return false;"><button class="alt"> Download Guide  <i class="fa fa-file-pdf-o" aria-hidden="true"></i></button></a>
+
+		<div></div>
+
+		<a href="app.php" target="_self"><button> Access to application  <img src="img/access-icon.png" width="20"></button></a>
+
+		<div></div>
+
+		<a href="images/test_data.zip" target="ref"><button class="greenbtn"> Download Test Data  <i class="fa fa-file-archive-o" aria-hidden="true"></i></button></a>
+
+	</aside>
+
+</div>
+<!-- Application's space -->
+
+<!-- site footer -->
+<footer id='site-footer'>
+
+	<div id="footer-links">
+        <ul>
+            <li><a href="#"><span>Online S3 Project</span></a></li>
+            <li class="active"><a href="#"><span>Applications</span></a></li>
+            <li><a href="#"><span>Toolbox</span></a></li>
+            <li><a href="#"><span>Analytics</span></a></li>
+            <li><a href="#">Support</span></a></li>
+            <li><a href="#"><span>Contact</span></a></li>
+        </ul>
+        <div id='copyright'>
+            <img src="img/logo.png" width="30" alt="online logo">
+            <p>Copyright &copy; 2016-2017 OnlineS3 Project</p>
+        </div>
+    </div>
+
+    <div id="european">
+        <img src="img/eu_logo.png" width="85" alt="Co-funded by the European Union">
+
+        <p>
+            Funded by the Horizon 2020 Framework Programme of the European Union.
+        </p>
+    </div>
+
+</footer>
+
+<!-- site footer -->
+
+</div>
+
+</div>
+</body>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/accordion.js"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
+</html>

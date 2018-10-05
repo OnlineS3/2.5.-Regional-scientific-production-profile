@@ -1,0 +1,315 @@
+
+header#site-header {
+	display: block;
+    max-width: 1200px;
+    height: 230px;
+    background: white;
+	line-height: 2;
+	font-family: "tahoma", "verdana";
+	padding-right: 20px;
+}
+
+nav#top-menu {
+    display: block;
+    height: 40px;
+    width: 100%;
+    padding: 2px 0;
+    position: relative
+}
+
+nav#top-menu ul {
+    float: right;
+}
+
+nav#top-menu ul li {
+    float: left;
+    list-style: none;
+    margin: 0 5px;
+	line-height: 1;
+    padding: 0 11px 0 1px;
+    border-right: 1px #666 solid;
+}
+
+nav#top-menu ul li:last-child {
+    border-right: none;
+    padding: 0 0 3px;
+    margin-right: 0;
+}
+
+nav#top-menu ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 3px;
+    font-size: 13px;
+    font-family: verdana;
+}
+
+nav#top-menu ul li .fa,
+nav#top-menu ul li img {
+    margin-right: 6px;
+}
+
+nav#top-menu ul li .fa {
+	font-size: 14px;
+	color: #605f5f !important;
+}
+
+nav#top-menu a:hover {
+	background: #eee;
+}
+
+@media only screen and (max-width:64.063em) { 
+	nav#top-menu {
+		height: 50px;
+	}
+	nav#top-menu a:hover {
+		background: none;
+	}
+}
+
+#header-main {
+    background: url("../img/background_header.png") no-repeat;
+    position: relative;
+	max-width: 1200px;
+	height: 167px;
+	height: 148px
+}
+    
+#header-main .top-section {
+    display: block;
+    position: relative;
+    height: 104px;
+}
+
+#header-main .bottom-section {
+    display: block;
+    position: relative;
+    height: 43px;
+}
+
+#header-main .logo-img {
+    bottom: -5px;
+    position: relative;
+}
+
+#header-main .headers {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#header-main .headers div {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#header-main .heading {
+    font-family: "Open Sans","Verdana";
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    padding: 0;
+    margin: 0 0 -10px;
+    display: block;
+}
+
+#header-main .heading a {
+    text-decoration: none;
+    color: white;
+}
+
+#header-main .sub-heading {
+    font-family: "Open Sans","Verdana";
+    font-size: 15px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+#header-main .user-btns {
+    position: absolute;
+    right: 20px;
+    top: 12px;
+	top: 4px;
+}
+
+@media only screen and (max-width:40.063em) { 
+	#header-main .user-btns {
+		top: auto;
+		bottom: 12px;
+	}
+}
+
+#header-main .register-btn {
+    color: white;
+	margin-left: 4px;
+    padding: 9px;
+    border-radius: 2px;
+    background: #1372aa;
+    letter-spacing: 1px;
+    font-weight: 600;
+    border: 1px solid rgba(164, 216, 247, 0.48);
+    transition: .4s;
+    cursor: pointer;
+    font-size: 12px;
+    color: #fff;
+}
+
+#header-main .login-btn:hover {
+	background: #7fe37f
+}
+
+#header-main .login-btn {
+    color: white;
+    font-weight: 600;
+    padding: 8px;
+    border-radius: 2px;
+    background: rgba(100,203,100,.85);
+    letter-spacing: 1px;
+    border: 1px solid #85dd36;
+    transition: .4s;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+#header-main .register-btn:hover {
+    background: #3b89b7 
+}
+
+#header-main .menu {
+    display: block;
+    height: 40px;
+    width: 100%;
+    padding: 4px 0;
+    position: relative
+}
+
+#header-main .menu ul {
+    float: left;
+    padding-left: 20px;
+    margin-top: 13px;
+}
+
+#header-main .menu ul li {
+    float: left;
+    list-style: none outside;
+    margin: 0 5px;
+    padding: 0 15px 0 3px;
+    border-right: 1px #bfbfbf solid;
+    line-height: 1
+}
+
+#header-main .menu ul li:last-child {
+    border-right: none;
+    padding: 0 10px 0 3px;
+}
+
+#header-main .menu ul li a {
+    text-decoration: none;
+    font-family: tahoma;
+    font-size: 12px;
+	transition: .4s;
+	color: #fff;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+#header-main .menu ul li a:hover {
+    opacity: .7;
+}
+
+#header-main .menu a.active {
+    color: #bdd3de;
+}
+
+#header-main .menu a#tool {
+    color: #fffc9b
+}
+
+#header-main .menu a#tool:hover,
+#header-main .menu a#tool.active {
+    opacity: .9;
+}
+
+#header-main .social-links {
+    position: absolute;
+    text-align: center;
+	right: 20px;
+    top: 0;
+}
+
+#header-main .social-links a {
+    margin: 0 7px;
+    display: inline-block;
+    color: #fff;
+	font-size: 28px;
+    text-decoration: none;
+    cursor: pointer;
+	transition: 1s;
+}
+
+#header-main .social-links a:hover {
+	opacity: .7;
+	color: #bdd3de
+}
+
+#breadcrumb {
+    position: relative;
+    display: block;
+    height: 40px;
+	margin-right: 20px;
+}
+
+#breadcrumb ul {
+    top: 0;
+    right: 0;
+    position: absolute;
+    margin: 5px 0;
+	font-size: 13px;
+}
+
+#breadcrumb ul li {
+    float: left;
+    margin: 0 10px;
+    list-style: none;
+	color: #555 !important;
+	font-size: 12px
+}
+
+#breadcrumb ul li span {
+	margin-top: 2px;
+	display: block;
+}
+
+#breadcrumb ul a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 13px;
+	transition: .4s;
+	color: #346acb;
+}
+
+#breadcrumb li:not(:last-child):after {
+    content: ">";
+    font-size: 10px;
+    top: -2px;
+    left: 9px;
+    position: relative;
+}
+
+#breadcrumb ul a:hover {
+	opacity: .7;
+	transition: .4s
+}
+
+@media only screen and (max-width:40.063em) { 
+	#header-main .social-links {
+		display: none
+	}
+	
+	#breadcrumb {
+		display: none
+	}
+}
+
+
